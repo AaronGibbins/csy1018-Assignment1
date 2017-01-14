@@ -1,0 +1,67 @@
+/*Home-Main Page*/
+body{
+  font-family: 'Lora', serif;
+  background-color: rgb(255, 153, 102);
+}
+
+/*Navigation Bar*/
+.nav-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Highlight Current Page Link*/
+.active{
+  background-color: #333333;
+}
+
+/*Move Contact Link To Last*/
+.contact{
+  float: right;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/*Move Links To Left*/
+li{
+   float: left;
+}
+
+li a{
+  display: block;
+  color: #ffffff;
+  text-align:center;
+  padding: 1px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #737373;
+}
+
+/*Detects Last Page Link*/
+li:last-child{
+  border-right: none;
+}
+
+/*Second Header*/
+h2{
+  font-family: 'Lora', serif;
+  text-decoration: none;
+}
+
+/*Image Movement*/
+.thumbnail-image{
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+/*Bio Page*/
